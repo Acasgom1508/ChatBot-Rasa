@@ -1,0 +1,44 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_help
+  - ask_sizes
+  - ask_price
+  - ask_products
+  - ask_delivery
+  - thank
+  - affirm
+  - deny
+
+responses:
+  utter_greet:
+  - text: "¡Hola! Bienvenido a nuestra tienda de camisetas de fútbol. ¿En qué puedo ayudarte hoy?"
+  - text: "¡Hola! ¿Buscas alguna camiseta en particular?"
+  
+  utter_goodbye:
+  - text: "¡Hasta luego! Espero verte pronto."
+  - text: "¡Cuídate! Si necesitas algo más, estaré aquí."
+
+  utter_help:
+  - text: "Puedo ayudarte con información sobre nuestras camisetas de fútbol, tallas, precios y envíos. ¿Qué te gustaría saber?"
+  
+  utter_ask_sizes:
+  - text: "Tenemos varias tallas disponibles, desde S hasta XXL. ¿Qué talla te gustaría?"
+
+  utter_ask_price:
+  - text: "Las camisetas cuestan entre 30 y 50 euros, dependiendo del modelo y la marca. ¿Te interesa algún precio en particular?"
+
+  utter_ask_products:
+  - text: "Tenemos camisetas de muchos equipos: Real Madrid, Barcelona, Atlético de Madrid y más. ¿Hay algún equipo en particular que te interese?"
+
+  utter_ask_delivery:
+  - text: "Hacemos entregas a domicilio. ¿Te gustaría saber el tiempo de entrega estimado?"
+
+  utter_thanks:
+  - text: "¡De nada! Para eso estamos."
+
+  utter_iamabot:
+  - text: "Soy un asistente virtual y estoy aquí para ayudarte con todo lo relacionado con nuestras camisetas de fútbol."
+

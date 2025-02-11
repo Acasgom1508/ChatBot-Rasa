@@ -1,0 +1,65 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hola
+      - hey
+      - qué tal
+      - buenos días
+      - buenas tardes
+
+  - intent: goodbye
+    examples: |
+      - adiós
+      - hasta luego
+      - chau
+      - cuídate
+
+  - intent: ask_help
+    examples: |
+      - ¿en qué puedo ayudarte?
+      - ¿qué productos tenéis?
+      - ¿tienen camisetas de fútbol?
+      - ¿qué tipos de camisetas vendéis?
+  
+  - intent: ask_sizes
+    examples: |
+      - ¿qué tamaños tenéis de camiseta?
+      - ¿cuál es la talla más pequeña?
+      - ¿tienen camisetas de talla XXL?
+  
+  - intent: ask_price
+    examples: |
+      - ¿cuánto cuesta esta camiseta?
+      - ¿cuál es el precio de las camisetas?
+      - ¿hay descuentos en camisetas?
+
+  - intent: ask_products
+    examples: |
+      - ¿qué camisetas de fútbol tenéis?
+      - ¿tenéis camisetas de Messi?
+      - ¿venden camisetas de equipos de España?
+
+  - intent: ask_delivery
+    examples: |
+      - ¿cómo puedo hacer un pedido?
+      - ¿cuánto tarda el envío?
+      - ¿hacen entregas a domicilio?
+
+  - intent: thank
+    examples: |
+      - gracias
+      - muchas gracias
+      - te agradezco
+
+  - intent: affirm
+    examples: |
+      - sí
+      - claro
+      - por supuesto
+
+  - intent: deny
+    examples: |
+      - no
+      - no lo creo

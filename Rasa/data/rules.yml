@@ -1,0 +1,37 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to help questions
+    steps:
+      - intent: ask_help
+      - action: utter_help
+
+  - rule: Respond to size questions
+    steps:
+      - intent: ask_sizes
+      - action: utter_ask_sizes
+
+  - rule: Respond to price questions
+    steps:
+      - intent: ask_price
+      - action: utter_ask_price
+
+  - rule: Respond to product questions
+    steps:
+      - intent: ask_products
+      - action: utter_ask_products
+
+  - rule: Respond to delivery questions
+    steps:
+      - intent: ask_delivery
+      - action: utter_ask_delivery
+
+  - rule: Say goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Respond to thanks
+    steps:
+      - intent: thank
+      - action: utter_thanks

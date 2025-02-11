@@ -1,0 +1,37 @@
+version: "3.1"
+
+stories:
+  - story: customer asks for help
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_help
+      - action: utter_help
+
+  - story: customer asks for sizes
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_sizes
+      - action: utter_ask_sizes
+
+  - story: customer asks for prices
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_price
+      - action: utter_ask_price
+
+  - story: customer asks for products
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_products
+      - action: utter_ask_products
+
+  - story: customer asks about delivery
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_delivery
+      - action: utter_ask_delivery
