@@ -8,7 +8,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 
 Future<BotResponse> sendMessageToRasa(String message) async {
   final response = await http.post(
-    Uri.parse('http://172.26.44.106:5005/webhooks/rest/webhook'),
+    Uri.parse('http://localhost:5005/webhooks/rest/webhook'),
     headers: <String, String>{
       'Content-Type': 'application/json; charset=UTF-8',
     },
